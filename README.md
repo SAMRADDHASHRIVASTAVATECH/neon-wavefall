@@ -109,6 +109,71 @@ hardware or external services.
 
 ---
 
+## Installation
+
+### System Requirements
+
+- Windows OS
+- Python 3.10 or newer
+- A supported audio device
+- Local network connection (LAN or Wi-Fi)
+
+### Dependencies
+
+Install required Python packages using pip:
+
+pip install pyqt6 numpy sounddevice
+
+---
+
+## Recommended Audio Driver (Strongly Recommended)
+
+For best performance, stability, and proper system-audio capture,
+it is **strongly recommended** to install a virtual audio driver.
+
+### VB-Audio Virtual Cable
+
+Download and install:
+https://vb-audio.com/Cable/
+
+This driver enables clean routing of system audio into the application
+and significantly improves reliability and performance.
+
+---
+
+## Windows Sound Configuration (IMPORTANT)
+
+After installing VB-Audio Virtual Cable:
+
+1. Open **Windows Sound Settings**
+2. Go to the **Sound** section
+3. Under **Output**, select:
+   **CABLE Input (VB-Audio Virtual Cable)**
+4. Under **Input**, select:
+   **CABLE Output (VB-Audio Virtual Cable)**
+
+This step is required for proper system audio routing and is necessary
+for the application to capture and stream system audio correctly.
+
+---
+
+## Running the Application
+
+From the project root directory, run:
+
+python synthesis.py
+
+When the application starts:
+
+- The source device controls playback and processing
+- A local network URL will be displayed
+- Listener devices can open that URL in a web browser
+- Multiple devices can connect and listen simultaneously
+
+No additional software is required on listener devices.
+
+---
+
 ## Usage Notice
 
 This project is not open source.
