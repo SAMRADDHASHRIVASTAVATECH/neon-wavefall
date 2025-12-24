@@ -22,6 +22,14 @@ single source device to be delivered simultaneously to multiple devices
 over a local network, while maintaining centralized control and real-time
 processing.
 
+screenshots are as follows:
+
+<img width="949" height="497" alt="Screenshot 2025-12-24 161646" src="https://github.com/user-attachments/assets/785948ab-d027-4c30-87b9-429f5d92ee76" />
+
+
+<img width="944" height="485" alt="Screenshot 2025-12-24 161731" src="https://github.com/user-attachments/assets/a10c7425-f0d3-4e4a-8a1a-23e4ec65e460" />
+
+
 ---
 
 ## What This System Does (Simple Explanation)
